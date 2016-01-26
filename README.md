@@ -1,5 +1,11 @@
 # opensift-for-windows
 
+---
+<font color=blue>**CHANGELOG:**</font>
+
+2016-01-26 Initial add
+
+---
 use opencv 3.0 shared library + visual stuio 2012 IDE
 
 YOU SHOULD CHOOSE x64 RELEASE!!!
@@ -11,4 +17,5 @@ YOU SHOULD CHOOSE x64 RELEASE!!!
 ![match](./Matches.png)
 
 ---
-If you find some questions, please [contact me](lifesider@qq.com]).
+If you find some questions, please contact me.
+
