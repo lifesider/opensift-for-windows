@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <dirent.h>
 
-#define inline _inline
+#define inline __inline
 
 /* absolute value */
 #ifndef ABS

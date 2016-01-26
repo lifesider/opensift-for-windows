@@ -8,6 +8,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "match", "match\match.vcxpro
 		{691274C5-1A56-4B09-8C16-DFF5027F6A9B} = {691274C5-1A56-4B09-8C16-DFF5027F6A9B}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dspfeat", "dspfeat\dspfeat.vcxproj", "{928296FC-9FE0-4A46-904D-C139083D5623}"
+	ProjectSection(ProjectDependencies) = postProject
+		{691274C5-1A56-4B09-8C16-DFF5027F6A9B} = {691274C5-1A56-4B09-8C16-DFF5027F6A9B}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -22,6 +27,9 @@ Global
 		{96584E27-3A19-4094-94FF-5466322CAB7F}.Debug|x64.Build.0 = Debug|x64
 		{96584E27-3A19-4094-94FF-5466322CAB7F}.Release|x64.ActiveCfg = Release|x64
 		{96584E27-3A19-4094-94FF-5466322CAB7F}.Release|x64.Build.0 = Release|x64
+		{928296FC-9FE0-4A46-904D-C139083D5623}.Debug|x64.ActiveCfg = Debug|Win32
+		{928296FC-9FE0-4A46-904D-C139083D5623}.Release|x64.ActiveCfg = Release|x64
+		{928296FC-9FE0-4A46-904D-C139083D5623}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -39,7 +39,14 @@ int main( int argc, char** argv )
   char* name;
   int n;
 
+#ifdef HAVE_GETOPT
   arg_parse( argc, argv );
+#else
+  if(argc != 3)
+	  exit(0);
+  feat_file = argv[1];
+  img_file = argv[2];
+#endif
 
   img = cvLoadImage( img_file, 1 );
   if( ! img )
@@ -85,6 +92,7 @@ static void usage( char* name )
 */
 static void arg_parse( int argc, char** argv )
 {
+#ifdef HAVE_GETOPT
   pname = basename( argv[0] );
   int arg;
   while( 1 )
@@ -114,4 +122,5 @@ static void arg_parse( int argc, char** argv )
     fatal_error( "bad argument count.\nTry '%s -h' for help.", pname );
   feat_file = argv[optind++];
   img_file = argv[optind];
+#endif
 }
