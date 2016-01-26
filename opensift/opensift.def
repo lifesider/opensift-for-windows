@@ -1,0 +1,5 @@
+LIBRARY opensift
+EXPORTS
+sift_features @1
+
+
